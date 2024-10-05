@@ -1,0 +1,172 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   My Blog - Yousha Khan
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .hover-effect:hover {
+            color: #fbbf24;
+            transition: color 0.3s ease-in-out;
+        }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <header class="flex justify-between items-center p-6">
+   <div class="text-2xl font-bold">
+    Yousha Khan
+   </div>
+   <nav>
+    <div class="md:hidden">
+     <button class="text-white focus:outline-none" id="menu-btn">
+      <i class="fas fa-bars text-2xl">
+      </i>
+     </button>
+    </div>
+    <ul class="hidden md:flex space-x-6" id="menu">
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="home.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="about.html">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="resume.html">
+       Resume
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="services.html">
+       Services
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="skills.html">
+       Skills
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="projects.html">
+       Projects
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="blog.html">
+       My Blog
+      </a>
+     </li>
+     <li>
+      <a class="text-white hover:text-yellow-500 hover-effect" href="contact.html">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="p-6 fade-in">
+   <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">
+     My Blog
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-gray-800 p-6 rounded-lg">
+      <img alt="Blog Post 1" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/Q9qCqJekQelEyE7pdKQJLA1jPDTAtDzgrPzMeMflSchElWNOB.jpg" width="400"/>
+      <h2 class="text-xl font-semibold mb-2">
+      TBD
+      </h2>
+      <p class="text-gray-400 mb-4">
+       TBD
+      </p>
+      <a class="text-yellow-500 hover:text-yellow-600" href="#" target="_blank">
+       Read More
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg">
+      <img alt="Blog Post 2" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="1_yBt65HhmARbqZDDJ1McFDg.png" width="400"/>
+      <h2 class="text-xl font-semibold mb-2">
+      TBD
+      </h2>
+      <p class="text-gray-400 mb-4">
+       TBD
+      </p>
+      <a class="text-yellow-500 hover:text-yellow-600" href="#" target="_blank">
+       Read More
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg">
+      <img alt="Blog Post 3" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/zHJcTPfrKmxKKqmkHwrpBcoiMnYnreDQN522aiJtTUcOpVjTA.jpg" width="400"/>
+      <h2 class="text-xl font-semibold mb-2">
+       TBD
+      </h2>
+      <p class="text-gray-400 mb-4">
+       TBD
+      </p>
+      <a class="text-yellow-500 hover:text-yellow-600" href="#" target="_blank">
+       Read More
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="p-6 mt-12">
+   <div class="flex justify-center space-x-4">
+    <a class="text-gray-400 hover:text-white hover-effect" href="https://www.instagram.com/youshakhan.developer/" rel="noopener" target="_blank">
+     <i class="fab fa-instagram">
+     </i>
+     Instagram
+    </a>
+    <a class="text-gray-400 hover:text-white hover-effect" href="https://github.com/Youshakhan72" rel="noopener" target="_blank">
+     <i class="fab fa-github">
+     </i>
+     GitHub
+    </a>
+    <a class="text-gray-400 hover:text-white hover-effect" href="https://www.linkedin.com/in/md-yousha-khan-868a912a6/" rel="noopener" target="_blank">
+     <i class="fab fa-linkedin">
+     </i>
+     LinkedIn
+    </a>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+        window.addEventListener('load', function() {
+            document.querySelector('.fade-in').classList.add('visible');
+        });
+  </script>
+ </body>
+</html>

@@ -1,0 +1,137 @@
+<html lang="en"></html>
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Resume - yousha Khan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .hover-effect:hover {
+            color: #fbbf24;
+            transition: color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <header class="flex justify-between items-center p-6">
+        <div class="text-2xl font-bold">Yousha Khan</div>
+        <nav>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <ul id="menu" class="hidden md:flex space-x-6">
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="home.html">Home</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="about.html">About</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="resume.html">Resume</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="services.html">Services</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="skills.html">Skills</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="projects.html">Projects</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="blog.html">My Blog</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-6 fade-in">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl font-bold mb-6">Resume</h1>
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4">Education</h2>
+                <div class="bg-gray-800 p-6 rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Undergrade IT Engineering</h3>
+                    <p class="text-gray-400">Lords Institute of Engineering and Technology, 2023 - 2027</p>
+                </div>
+            </section>
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+                <div class="bg-gray-800 p-6 rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Frontend Developer </h3>
+                    <p class="text-gray-400">Codewave Hub, April 2024 - Present</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Developed and maintained web applications using HTML and CSS.</li>
+                        <li>Collaborated with the design team to implement responsive designs.</li>
+                        <li>Optimized web applications for maximum speed and scalability.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">UI/UX Designer</h3>
+                    <p class="text-gray-400">CodeWave Hub, July 2024 - Present</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Designed creative materials including posters, ID cards, and stickers.</li>
+                        <li>Expanded expertise to include clothing merchandise design.</li>
+                        <li>Collaborated with the community to meet their design needs.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Logistic Head </h3>
+                    <p class="text-gray-400">CodeWave Hub, August 2024 - Present</p>
+                    <ul class="list-disc list-inside text-gray-400">
+                        <li>Event Coordination.</li>
+                        <li>Budgeting and Cost Management.</li>
+                        <li>Vendor and Supplier Management.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-xs font-medium px-2.5 py-0.5 rounded">HTML5</span>
+                    <span class="bg-gray-700 text-gray-300 text-xs font-medium px-2.5 py-0.5 rounded">CSS3</span>
+                    <span class="bg-gray-700 text-gray-300 text-xs font-medium px-2.5 py-0.5 rounded">Figma</span>
+                    <span class="bg-gray-700 text-gray-300 text-xs font-medium px-2.5 py-0.5 rounded">Canva</span>
+                    <span class="bg-gray-700 text-gray-300 text-xs font-medium px-2.5 py-0.5 rounded">UI/UX</span>
+                </div>
+            </section>
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+                <div class="bg-gray-800 p-6 rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+                    <p class="text-gray-400">A personal portfolio website showcasing my skills, experience, and side projects. Built with Next.js and Tailwind CSS for modern design and performance optimization.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600" href="https://github.com/Youshakhan72/portfolio" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="p-6 mt-12">
+        <div class="flex justify-center space-x-4">
+            <a class="text-gray-400 hover:text-white hover-effect" href="https://www.instagram.com/youshakhan.developer/" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a class="text-gray-400 hover:text-white hover-effect" href="https://github.com/Youshakhan72" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a class="text-gray-400 hover:text-white hover-effect" href="https://www.linkedin.com/in/md-yousha-khan-868a912a6/" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+        window.addEventListener('load', function() {
+            document.querySelector('.fade-in').classList.add('visible');
+        });
+    </script>
+</body>
+</html>

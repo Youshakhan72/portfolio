@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Contact</title>
+    <title>Skills - Yousha Khan</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
@@ -27,7 +27,7 @@
 </head>
 <body class="bg-black text-white">
     <header class="flex justify-between items-center p-6">
-        <div class="text-2xl font-bold">Yousha Khan</div>
+        <div class="text-2xl font-bold">Yousha</div>
         <nav>
             <div class="md:hidden">
                 <button id="menu-btn" class="text-white focus:outline-none">
@@ -35,40 +35,34 @@
                 </button>
             </div>
             <ul id="menu" class="hidden md:flex space-x-6">
-                <li><a class="text-white hover:text-yellow-500" href="home.html">Home</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="about.html">About</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="resume.html">Resume</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="services.html">Services</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="skills.html">Skills</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="projects.html">Projects</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="blog.html">My Blog</a></li>
-                <li><a class="text-white hover:text-yellow-500" href="contact.html">Contact</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="home.html">Home</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="about.html">About</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="resume.html">Resume</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="services.html">Services</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="skills.html">Skills</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="projects.html">Projects</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="blog.html">My Blog</a></li>
+                <li><a class="text-white hover:text-yellow-500 hover-effect" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main class="p-6 fade-in">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-3xl font-bold mb-6">Contact Me</h1>
-            <p class="mb-6 text-gray-400">Feel free to reach out to me through the form below or via my contact details.</p>
-            <div class="mb-6">
-                <p class="text-lg text-white"><i class="fas fa-phone-alt text-yellow-500 mb-2"></i>+91 7981927918</p>
-                <p class="text-lg text-white"><i class="fas fa-envelope text-yellow-500"></i> youshakhanstudent@gmail.com</p>
+        <div class="max-w-4xl mx-auto text-center md:my-12">
+            <h1 class="text-3xl font-bold mb-6">My Skills</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-2xl font-semibold mb-4">HTML5</h2>
+                    <p class="text-gray-400">Developed and maintained web applications using  HTML5.</p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-2xl font-semibold mb-4">CSS3</h2>
+                    <p class="text-gray-400">Proficient in CSS for styling and layout, including basic selectors, properties, box model, and responsive design techniques.</p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-2xl font-semibold mb-4">Figma</h2>
+                    <p class="text-gray-400">Skilled in designing user interfaces and prototypes using Figma.</p>
+                </div>
             </div>
-            <form class="space-y-4">
-                <div>
-                    <label class="block text-gray-400" for="name">Name</label>
-                    <input class="w-full p-2 bg-gray-800 text-white rounded" id="name" name="name" type="text" required/>
-                </div>
-                <div>
-                    <label class="block text-gray-400" for="email">Email</label>
-                    <input class="w-full p-2 bg-gray-800 text-white rounded" id="email" name="email" type="email" required/>
-                </div>
-                <div>
-                    <label class="block text-gray-400" for="message">Message</label>
-                    <textarea class="w-full p-2 bg-gray-800 text-white rounded" id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button class="bg-yellow-500 text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-600 transition duration-300" type="submit">Send</button>
-            </form>
         </div>
     </main>
     <footer class="p-6 mt-12">
